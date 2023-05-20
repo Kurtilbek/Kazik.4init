@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RuletActivity"
+    android:background="@color/backgroud">
+
+    <TextView
+        android:id="@+id/Text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/defolt"
+        android:textColor="@color/text_color"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/Text_2"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/Text_3"
+        android:layout_toEndOf="@+id/Text_1"
+        android:gravity="center"
+        android:text="@string/defolt"
+        android:textColor="@color/text_color"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/Text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="@string/defolt"
+        android:textColor="@color/text_color"
+        android:textSize="29sp" />
+
+    <Button
+        android:id="@+id/my_button"
+        android:layout_width="401dp"
+        android:layout_height="402dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="Vichislenia"
+        android:text="@string/button_start"
+        android:textColor="@color/text_color"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/Text_4"
+        android:layout_width="138dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center"
+        android:text="10000"
+        android:textColor="@color/text_color"
+        android:textSize="25sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Баланс:"
+        android:textSize="25sp"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="11dp"
+        android:onClick="onClickdeletAll"
+        android:text="Сбросить данные" />
+
+
+</RelativeLayout>
